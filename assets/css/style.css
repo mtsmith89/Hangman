@@ -1,0 +1,38 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-color: purple;
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 1em;
+    background-image: url("../images/swirl.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 1.7rem;
+}
+
+.frame {
+    background-color: white;
+    opacity: 0.8;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#buttons {
+    padding: 5px;
+}
+
+button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 30px;
+}
