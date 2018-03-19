@@ -132,8 +132,8 @@ function checkLetters(letter) {
   } else if (wrongGuesses.includes(letter) === true) {
     alert("You've already guessed that letter!");
     return;
-  } if (letters.includes(letterGuessed) === false) {
-    return;
+  // } if (letters.includes(letterGuessed) === false) {
+  //   return;
   } else {
     wrongGuesses.push(letter);
 
